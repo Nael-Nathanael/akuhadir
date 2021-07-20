@@ -18,6 +18,10 @@ class Landing extends CI_Controller
 	public function cek_hadir()
 	{
 		$id = $_GET['id'];
+		
+		
+		$content['nama'] = $this->db->query("SELECT nama FROM m_siswa where id = $id")->row()->nama;
+		
 		$tanggal = date("Y-m-d");
 		$dicatatOrNot = $this->db->query(
 			"SELECT * FROM tanggal WHERE date = '$tanggal'"

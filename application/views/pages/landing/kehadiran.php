@@ -23,7 +23,7 @@
 
 <div class="container mt-5 bg-white p-md-5 p-2">
 	<div class="d-flex flex-wrap justify-content-between align-items-center">
-		<h1 class="m-0"><?= $detail[0]->nama ?></h1>
+		<h1 class="m-0"><?= $nama ?></h1>
 		<h2 class="m-0">Hari ini: <?= $hari_ini ? $hari_ini : "Hadir" ?></h2>
 	</div>
 	<hr>

@@ -14,7 +14,7 @@
 
 <div class="card card-body">
 	<div class="d-flex flex-wrap justify-content-between align-items-center">
-		<h2 class="m-0"><?= $detail[0]->nama ?></h2>
+		<h2 class="m-0"><?= $nama ?></h2>
 	</div>
 	<hr>
 
